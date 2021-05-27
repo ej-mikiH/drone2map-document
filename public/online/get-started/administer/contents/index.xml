@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>コンテンツ on ArcGIS リソース集</title>
+    <link>/online/get-started/administer/contents/</link>
+    <description>Recent content in コンテンツ on ArcGIS リソース集</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language><atom:link href="/online/get-started/administer/contents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>所有者の変更</title>
+      <link>/online/get-started/administer/contents/change-owner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/administer/contents/change-owner/</guid>
+      <description>所有者の変更 組織の管理者は、組織のメンバーが所有するアイテムの所有権の変更を行うことができます。
+アイテム所有者の変更を行っても ArcGIS Online アイテムの URL、サービス URL は変わりません。そのため、組織サイトに追加している Web マップのリンク修正作業などは必要ありません。
+ すべてのアイテムの所有権を他のメンバーに一括で変更する場合   管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+  サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+  操作を行いたいメンバーの右に表示される […] をクリックして、[コンテンツの転送] をクリックします。
+  [コンテンツの転送] ウィンドウで、クリックしてアイテムの新しい所有者を選択します。
+  必要に応じて既存のフォルダーを選択するか、新しいフォルダーを作成します。
+  [転送] をクリックします。
+  [転送] をクリックする前に、所有者が変更されるアイテムのリストを確認するには、[転送するコンテンツ] の下にある [すべてのアイテムの表示] をクリックします。
+ 個別のアイテムの所有権を他のメンバーに変更する場合   管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+  サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+  操作を行いたいメンバーの右に表示される […] をクリックして、[アイテムの管理] をクリックします。</description>
+    </item>
+    
+    <item>
+      <title>アイテムの削除</title>
+      <link>/online/get-started/administer/contents/delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/administer/contents/delete/</guid>
+      <description>アイテムの削除 組織の管理者は、組織のメンバーが保有するアイテムの削除を行うことができます。
+  管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+  サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+  操作を行いたいメンバーの右に表示される […] をクリックして、[アイテムの管理] をクリックします。
+  メンバーの [マイ コンテンツ] ページへ移動します。
+  削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。
+  [削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。
+  </description>
+    </item>
+    
+  </channel>
+</rss>

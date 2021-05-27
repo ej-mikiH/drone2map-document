@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管理者の操作 on ArcGIS リソース集</title>
+    <link>/online/get-started/setup/admin/</link>
+    <description>Recent content in 管理者の操作 on ArcGIS リソース集</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language><atom:link href="/online/get-started/setup/admin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>サブスクリプションの有効化</title>
+      <link>/online/get-started/setup/admin/activate-subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/setup/admin/activate-subscription/</guid>
+      <description>「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。ArcGIS Online の有償プランをご契約された、あるいは ArcGIS Online の利用申請をしていただいたお客様には、あらかじめサブスクリプション ID が付与されており、受信されたメールに記載の独自の URL からサブスクリプションを有効化することで、ArcGIS Online が利用できるようになります。
+サブスクリプションの有効化   以下いずれかの件名の案内メールを開きます。
+ 【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け） 【ESRIジャパン】クラウドGIS 無償利用サービスのご案内 【ESRIジャパン】ArcGIS アカデミックパック 出荷のご案内  件名は変更される場合があります。
+ メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。
+   メール文章内の、＜サブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。
+組織向けプランの「サブスクリプションID」と「ESRI顧客ID」は弊社サポートに問い合わせる場合に必要な情報となりますので、この案内メールは大切に保管してください。
+   [アカウントを新規作成] または [既存の ArcGIS 個人向けアカウントを移行] を選択し、[次へ] をクリックします。
+既存の個人向けアカウントを組織アカウントに移行する場合、個人アカウントにて所有したアイテムは組織のアイテムとなります。以下の 2 つのサイトで作成したアカウントは個人アカウントです。
+ Esri アカウント (https://accounts.esri.com/) ArcGIS Online 個人向けアカウント (https://www.arcgis.com/home/createaccount.html)     [アカウントを新規作成] を選択した場合は、組織サイトにサイン インするために使用するユーザー名、パスワードなどを設定してください。有効化を最初に行うメンバーは自動的に管理者として登録されます。</description>
+    </item>
+    
+    <item>
+      <title>組織の設定</title>
+      <link>/online/get-started/setup/admin/settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/setup/admin/settings/</guid>
+      <description>組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。
+ホーム ページ ホーム ページは、組織の Web サイトのランディング ページであり、ユーザー コミュニティへの入口としての役割を果たします。 ホーム ページでは、組織のメンバーや一般ユーザーに役立つリソースやコンテンツを提供できます。
+  管理者または組織の Web サイトの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+  サイト上部の [組織] タブ → [設定] タブをクリックします。
+  ページ左の [ホーム ページ] をクリックします。
+  [ホーム ページ エディター] セクションの [エディターの起動] をクリックします。
+  ホーム ページのエレメントを構成します。
+各エレメントの構成の詳細はヘルプをご参照ください。
+  [保存] をクリックして、ホーム ページの構成を適用します。
+  [閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。
+  サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。
+  セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description>
+    </item>
+    
+    <item>
+      <title>メンバーの追加</title>
+      <link>/online/get-started/setup/admin/add-members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/setup/admin/add-members/</guid>
+      <description>組織サイトの構成を設定後、管理者はメンバーを組織サイトに招待することができます。メンバーとは、組織サイトにサイン インできるアカウントを持ったユーザーを指します。
+組織サイトに招待できるメンバー数は、ご契約内容や契約期間に応じて異なります。
+   管理者またはメンバーを招待できる権限を持っているユーザーとして ArcGIS Online にサイン インします。
+  サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+  [メンバーの招待] をクリックします。
+  下記から選択し、[次へ] をクリックします。
+メンバーを招待する方法は、下記 3 種類あります。
+  招待メールを送信せずにメンバーを自動的に追加
+各メンバーのユーザー名とパスワードを設定します。 そのメンバーにユーザー名とパスワードを通知する必要があります。 一時パスワードは、最小強度の要件を満たしている必要があります。 メンバーは最初にサイン インするときに、パスワードの変更を求められます。 招待メールは送信されません。 特定のメンバーの電子メール アドレスがない場合は、管理者の電子メール アドレスを使用できます。
+  メンバーを追加し、電子メールでそのメンバーに通知
+各メンバーのユーザー名を設定します。メンバーは、ArcGIS Online が送信する電子メールに応答する必要があります。メンバーが組織に加入するには、独自のパスワードを作成します。
+  メンバーが任意のアカウントを使用して加入するよう招待
+各メンバーの電子メール アドレスを入力します。 メンバーは、ArcGIS Online が送信する招待メールに応答する必要があります。 メンバーが組織に加入するには、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行します。 組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。
+     [新規メンバー] をクリックします。
+複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細はArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル (Esri 製品サポートへのログインが必要です) をご参照ください。</description>
+    </item>
+    
+  </channel>
+</rss>

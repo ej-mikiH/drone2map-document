@@ -1,0 +1,27 @@
+baseURL = ""
+languageCode = "ja-jp"
+defaultContentLanguage = "ja-jp"
+title = "ArcGIS リソース集"
+theme = "hugo-theme-docdock"
+relativeURLs = true
+
+[params]
+#themeStyle = "flex"
+themeStyle = "original"
+#themeVariant = "green"
+#themeVariant = "gray"
+#themeVariant = "gold"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[[menu.shortcuts]]
+#pre = "<h3>More</h3>"
+name = "<label>ESRIジャパン株式会社</label>"
+url = "https://www.esrij.com/"
+weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

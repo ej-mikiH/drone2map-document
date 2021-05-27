@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>メンバー on ArcGIS リソース集</title>
+    <link>/online/get-started/administer/members/</link>
+    <description>Recent content in メンバー on ArcGIS リソース集</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language><atom:link href="/online/get-started/administer/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ロールの変更</title>
+      <link>/online/get-started/administer/members/role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/administer/members/role/</guid>
+      <description>組織サイトの管理者は、メンバーにロールを割り当てることで権限の範囲を制御することができます。各ロールの詳細は、ヘルプをご参照ください。
+ 管理者アカウントで ArcGIS Online にサイン インします。 サイト上部の [組織] タブ → [メンバー] タブをクリックします。 [ロール] 列にある [▼] をクリックして、ロールを変更します。   自身のロールの変更は、[管理者] ユーザーであってもできません。
+ メンバーの招待と追加については、「メンバーの追加」をご参照ください。
+ </description>
+    </item>
+    
+    <item>
+      <title>ユーザー タイプの変更</title>
+      <link>/online/get-started/administer/members/usertype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/administer/members/usertype/</guid>
+      <description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Field Worker、Creator、GIS Professional、Insights Analyst、Storyteller の 7 種類のユーザー タイプのライセンス体系があります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、こちらをご参照ください。
+ユーザー タイプの変更方法 メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。
+ [組織] ページに移動し、[メンバー] タブをクリックします。 [&amp;hellip;] をクリックし、[ユーザー タイプの管理] をクリックして、ユーザー タイプ/ロールの管理画面を開きます。
+ 割り当てたいユーザータイプをプルダウンから選択し、[保存] をクリックします。  </description>
+    </item>
+    
+    <item>
+      <title>メンバーの削除</title>
+      <link>/online/get-started/administer/members/delete-members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/online/get-started/administer/members/delete-members/</guid>
+      <description>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。
+ メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 ArcGIS Pro 等のライセンスの割り当ての解除 Esri アクセスの無効化 メンバーの削除の実行  メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
+詳細な手順は以下のページをご参照ください。
+ 所有者の変更 アイテムの削除  所有しているグループの所有者の変更またはグループ自体を削除 ※グループを所有していない場合は、このステップをスキップします。
+ [組織] メニュー→ [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [グループの表示] をクリックし、所属しているグループ一覧を表示します。
+ 削除するメンバーがグループを所有している場合、グループの所有者の変更もしくは、グループ自体の削除を行います。  グループの所有者の変更を行う場合、グループ名をクリックし、[概要] タブ上で右側にある [所有者] の欄の [所有者の変更] をクリックします。
+ グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。     ArcGIS Pro 等のライセンスの割り当ての解除 ※ライセンスの割り当てがされていない場合は、このステップをスキップします。
+※メンバーのユーザー タイプが、GIS Professional (Basic, Standard, Advanced ) のユーザーについては、それぞれユーザータイプ自体に ArcGIS Pro のコア ライセンス(Basic, Standard, Advanced) が含まれるため、コア ライセンスの割り当て解除は不要です。各種エクステンションやアプリケーション等の割り当て解除のみ行ってください。アカデミックパック ご利用のユーザーは、GIS Professional Advanced のユーザータイプに該当しますので、ArcGIS Pro Advanced ライセンスの割り当て解除は不要です。</description>
+    </item>
+    
+  </channel>
+</rss>

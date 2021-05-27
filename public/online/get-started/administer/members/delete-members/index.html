@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>ArcGIS リソース集</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2021-05-11T18:36:32 JST">
+<title>メンバーの削除 :: ArcGIS リソース集</title>
+<link rel="shortcut icon" href="../../../../../images/favicon.png" type="image/x-icon" />
+<link href="../../../../../css/nucleus.css" rel="stylesheet">
+<link href="../../../../../css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../../../css/hybrid.css" rel="stylesheet">
+<link href="../../../../../css/featherlight.min.css" rel="stylesheet">
+<link href="../../../../../css/auto-complete.css" rel="stylesheet">
+<link href="../../../../../theme-original/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="../../../../../css/bootstrap.min.css">
+<script src="../../../../../js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="メンバーの削除に必要な条件と操作について説明します">
+
+
+    
+  </head>
+  <body data-url="../../../../../online/get-started/administer/members/delete-members/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+    <a class="baselink" href="">ArcGIS リソース集</a>
+  
+
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="検索...">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="../../../../../js/lunr.min.js"></script>
+		<script type="text/javascript" src="../../../../../js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "";
+        
+		</script>
+		<script type="text/javascript" src="../../../../../js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+            <li data-nav-id="/" class="dd-item">
+            <a href="../../../../../"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+    <li data-nav-id="/online/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="../../../../../online/">ArcGIS Online</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/online/get-started/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/">スタートアップ ガイド</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/online/get-started/setup/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/setup/">セットアップ</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/setup/environment/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/environment/">
+            動作環境
+          </a>
+        </div>
+    </li>
+    <li data-nav-id="/online/get-started/setup/admin/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/setup/admin/">管理者の操作</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/setup/admin/activate-subscription/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/admin/activate-subscription/">
+            サブスクリプションの有効化
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/setup/admin/settings/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/admin/settings/">
+            組織の設定
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/setup/admin/add-members/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/admin/add-members/">
+            メンバーの追加
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/online/get-started/setup/member/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/setup/member/">メンバーの操作</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/setup/member/join/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/member/join/">
+            組織サイトへ加入
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/setup/member/set-profile/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/setup/member/set-profile/">
+            プロフィールの設定
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/online/get-started/administer/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/administer/">管理</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/online/get-started/administer/subscription/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/administer/subscription/">サブスクリプション</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/administer/subscription/credit/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/subscription/credit/">
+            クレジット
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/administer/subscription/report/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/subscription/report/">
+            レポート
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/online/get-started/administer/members/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/administer/members/">メンバー</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/administer/members/role/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/members/role/">
+            ロールの変更
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/administer/members/usertype/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/members/usertype/">
+            ユーザー タイプの変更
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/administer/members/delete-members/" class="dd-item active">
+        <div>
+          <a href="../../../../../online/get-started/administer/members/delete-members/">
+            メンバーの削除
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/online/get-started/administer/license/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/administer/license/">ライセンス</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/administer/license/assign/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/license/assign/">
+            ライセンスの割り当てと解除
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/online/get-started/administer/contents/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../../../../online/get-started/administer/contents/">コンテンツ</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/online/get-started/administer/contents/change-owner/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/contents/change-owner/">
+            所有者の変更
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/online/get-started/administer/contents/delete/" class="dd-item">
+        <div>
+          <a href="../../../../../online/get-started/administer/contents/delete/">
+            アイテムの削除
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+
+
+
+        <section id="shortcuts">
+                <li class="" role=""><a href="https://www.esrij.com/" target="_blank" rel="noopener"><label>ESRIジャパン株式会社</label></a></li>
+        </section>
+
+    <hr />
+    <li></li>
+    
+    </ul>
+
+ <section id="footer"><center>
+    <br>© Esri Japan. All rights reserved.<br>
+</center>
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <a href='../../../../../'>ArcGIS リソース集</a> > <a href='../../../../../online/'>ArcGIS Online</a> > <a href='../../../../../online/get-started/'>スタートアップ ガイド</a> > <a href='../../../../../online/get-started/administer/'>管理</a> > <a href='../../../../../online/get-started/administer/members/'>メンバー</a> > メンバーの削除
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#メンバーが所有しているアイテムを削除または別メンバーにアイテムを移行">メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行</a></li>
+        <li><a href="#所有しているグループの所有者の変更またはグループ自体を削除">所有しているグループの所有者の変更またはグループ自体を削除</a></li>
+        <li><a href="#arcgis-pro-等のライセンスの割り当ての解除">ArcGIS Pro 等のライセンスの割り当ての解除</a></li>
+        <li><a href="#esri-アクセスの無効化">Esri アクセスの無効化</a></li>
+        <li><a href="#メンバーの削除の実行">メンバーの削除の実行</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>メンバーの削除</h1>
+  
+
+
+
+    
+    
+    
+    <p>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。</p>
+<ol>
+<li><a href="#%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%8C%E6%89%80%E6%9C%89%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%92%E5%89%8A%E9%99%A4%E3%80%81%E3%81%BE%E3%81%9F%E3%81%AF%E5%88%A5%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AB%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%92%E7%A7%BB%E8%A1%8C">メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行</a></li>
+<li><a href="#%E6%89%80%E6%9C%89%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%AE%E6%89%80%E6%9C%89%E8%80%85%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%BE%E3%81%9F%E3%81%AF%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E8%87%AA%E4%BD%93%E3%82%92%E5%89%8A%E9%99%A4">所有しているグループの所有者の変更またはグループ自体を削除</a></li>
+<li><a href="#arcgis-pro-%E7%AD%89%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%AE%E8%A7%A3%E9%99%A4">ArcGIS Pro 等のライセンスの割り当ての解除</a></li>
+<li><a href="#esri-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%84%A1%E5%8A%B9%E5%8C%96">Esri アクセスの無効化</a></li>
+<li><a href="#%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E5%89%8A%E9%99%A4%E3%81%AE%E5%AE%9F%E8%A1%8C">メンバーの削除の実行</a></li>
+</ol>
+<h3 id="メンバーが所有しているアイテムを削除または別メンバーにアイテムを移行">メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行</h3>
+<p>※アイテムを所有していない場合は、このステップをスキップします。<br>
+詳細な手順は以下のページをご参照ください。</p>
+<ul>
+<li><a href="../../../../../online/get-started/administer/contents/change-owner">所有者の変更</a></li>
+<li><a href="../../../../../online/get-started/administer/contents/delete">アイテムの削除</a></li>
+</ul>
+<h3 id="所有しているグループの所有者の変更またはグループ自体を削除">所有しているグループの所有者の変更またはグループ自体を削除</h3>
+<p>※グループを所有していない場合は、このステップをスキップします。</p>
+<ol>
+<li>[組織] メニュー→ [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。</li>
+<li>[グループの表示] をクリックし、所属しているグループ一覧を表示します。<br>
+<img src = "https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/group-view.png" width=50%></li>
+<li>削除するメンバーがグループを所有している場合、グループの所有者の変更もしくは、グループ自体の削除を行います。
+<ol>
+<li>グループの所有者の変更を行う場合、グループ名をクリックし、[概要] タブ上で右側にある [所有者] の欄の [所有者の変更] をクリックします。<br>
+<img src = "https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/group-change.png" width=50%></li>
+<li>グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。
+<img src = "https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/group-delete.png" width=50%></li>
+</ol>
+</li>
+</ol>
+<h3 id="arcgis-pro-等のライセンスの割り当ての解除">ArcGIS Pro 等のライセンスの割り当ての解除</h3>
+<p>※ライセンスの割り当てがされていない場合は、このステップをスキップします。<br>
+※メンバーのユーザー タイプが、GIS Professional (Basic, Standard, Advanced ) のユーザーについては、それぞれユーザータイプ自体に ArcGIS Pro のコア ライセンス(Basic, Standard, Advanced) が含まれるため、コア ライセンスの割り当て解除は不要です。各種エクステンションやアプリケーション等の割り当て解除のみ行ってください。アカデミックパック ご利用のユーザーは、GIS Professional Advanced のユーザータイプに該当しますので、ArcGIS Pro Advanced ライセンスの割り当て解除は不要です。<br>
+詳細な手順は以下のページをご参照ください。</p>
+<ul>
+<li><a href="../../../../../online/get-started/administer/license/assign">ライセンスの割り当てと解除</a></li>
+</ul>
+<h3 id="esri-アクセスの無効化">Esri アクセスの無効化</h3>
+<p>※メンバーを完全に削除するために必要なステップです。メンバー アカウントを個人向けプランに変換したい場合は、このステップをスキップします。</p>
+<ol>
+<li>[組織] メニュー→ [メンバー]  タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。</li>
+<li>[Esri アクセスの無効化] をクリックします。<br>
+　※ すでに無効化されている場合は、[Esri アクセスの有効化] と表示されます。この場合は、この操作は不要です。</li>
+</ol>
+<h3 id="メンバーの削除の実行">メンバーの削除の実行</h3>
+<ol>
+<li>[組織] メニュー→ [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。</li>
+<li>[メンバーの削除] をクリックします。</li>
+</ol>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+<a class="nav nav-prev" href="../../../../../online/get-started/administer/members/usertype/" title="ユーザー タイプの変更"> <i class="fa fa-chevron-left"></i><label>ユーザー タイプの変更</label></a>
+    <a class="nav nav-next" href="../../../../../online/get-started/administer/license/" title="ライセンス" style="margin-right: 0px;"><label>ライセンス</label><i class="fa fa-chevron-right"></i></a></div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="../../../../../js/clipboard.min.js"></script>
+<script src="../../../../../js/featherlight.min.js"></script>
+<script src="../../../../../js/html5shiv-printshiv.min.js"></script>
+
+<script src="../../../../../js/modernizr.custom.71422.js"></script>
+<script src="../../../../../js/docdock.js"></script>
+<script src="../../../../../theme-original/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>
