@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>スタートアップ ガイド on ArcGIS リソース集</title>
-    <link>https://example_online.com/drone2map/get-started/</link>
+    <link>/drone2map/get-started/</link>
     <description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://example_online.com/drone2map/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="/drone2map/get-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ライセンス</title>
-      <link>https://example_online.com/drone2map/get-started/license/</link>
+      <link>/drone2map/get-started/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example_online.com/drone2map/get-started/license/</guid>
+      <guid>/drone2map/get-started/license/</guid>
       <description>Drone2Map は、ArcGIS Online または Portal for ArcGIS の指定ユーザーライセンスを使用し、組織のメンバー（指定ユーザー）の認証情報を使用して Drone2Map にサイン インします。
 Drone2Map ライセンスは ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。組織の管理者、またはライセンス管理権限を持っているユーザーによって Drone2Map ライセンスの割り当てまたは解除を行うことができます。
 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行います。
-   ArcGIS Online 組織サイトをまだ利用していない場合
+  ArcGIS Online 組織サイトをまだ利用していない場合
 ArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。
   ArcGIS Online 組織サイトを既に利用開始している場合
 ArcGIS Online のスタートアップ ガイドのライセンスの割り当てと解除を参考に Drone2Map を利用するメンバーに Drone2Map を割り当てます。
   Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。
-   Portal for ArcGIS をご利用の場合
+  Portal for ArcGIS をご利用の場合
 ライセンス ファイルの取得が必要となります。詳細は Portal for ArcGIS の ArcGIS Drone2Map ライセンスの構成をご参考ください。</description>
     </item>
     
     <item>
       <title>動作環境</title>
-      <link>https://example_online.com/drone2map/get-started/environment/</link>
+      <link>/drone2map/get-started/environment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example_online.com/drone2map/get-started/environment/</guid>
+      <guid>/drone2map/get-started/environment/</guid>
       <description>インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましては Esriジャパン サイト内の動作環境のページをご参照ください。
  ArcGIS Drone2Map 動作環境  </description>
     </item>
     
     <item>
       <title>ダウンロード</title>
-      <link>https://example_online.com/drone2map/get-started/download/</link>
+      <link>/drone2map/get-started/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example_online.com/drone2map/get-started/download/</guid>
+      <guid>/drone2map/get-started/download/</guid>
       <description>Drone2Map インストーラーのダウンロード   MyEsri サイトへアクセスします。
   MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
 ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。
@@ -48,33 +48,33 @@ ArcGIS Online のスタートアップ ガイドのライセンスの割り当�
     
     <item>
       <title>インストールとアンインストール</title>
-      <link>https://example_online.com/drone2map/get-started/installuninstall/</link>
+      <link>/drone2map/get-started/installuninstall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example_online.com/drone2map/get-started/installuninstall/</guid>
+      <guid>/drone2map/get-started/installuninstall/</guid>
       <description>Drone2Map のインストール Drone2Map をインストールする手順を説明します。
 必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
-   Drone2Map の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
+  Drone2Map の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
   プログラムが自動的に展開されるので、ダイアログに従ってインストールしてください。
   Drone2Map がインストールされたら [完了] をクリックします。
 続けて 「ArcGIS Drone2Map 日本語パック」 のインストールが開始します。
   Drone2Map 日本語パックのセットアップが終了したら [OK] をクリックします。
   パッチおよび任意プログラムのインストールについて
 Drone2Map のパッチをインストールする場合は、続いてインストールをしてください。
- 以上で Drone2Map のインストールは完了です。
+以上で Drone2Map のインストールは完了です。
 Drone2Map のアンインストール Drone2Map をアンインストールする手順を説明します。
 必ずアンインストール前にオフライン設定の解除を行ってください。
-   Windows の [コントロール パネル] → [プログラムと機能] を開きます。
+  Windows の [コントロール パネル] → [プログラムと機能] を開きます。
   「ArcGIS Drone2Map 日本語パック」 → 「ArcGIS Drone2Map」 の順にアンインストールします。各プログラムについて [アンインストールと変更] をクリックしてアンインストールを実行します。
   </description>
     </item>
     
     <item>
       <title>サイン インとサイン アウト</title>
-      <link>https://example_online.com/drone2map/get-started/signinsignout/</link>
+      <link>/drone2map/get-started/signinsignout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example_online.com/drone2map/get-started/signinsignout/</guid>
+      <guid>/drone2map/get-started/signinsignout/</guid>
       <description>Drone2Map へのサイン イン ライセンスを割り当てた Drone2Map にサイン インする方法を説明します。
 メンバーへのライセンスの割り当てについては 「ライセンス」 ページをご参照ください。
   Windows [スタート] メニュー → [ArcGIS] フォルダー → [Drone2Map] を選択し起動させます。

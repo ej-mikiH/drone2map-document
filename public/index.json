@@ -1,69 +1,69 @@
 [
 {
-	"uri": "https://example_online.com/drone2map/get-started/",
+	"uri": "/drone2map/get-started/",
 	"title": "スタートアップ ガイド",
 	"tags": [],
 	"description": "ArcGIS Drone2Map をご利用いただくためのセットアップ手順を紹介します。",
-	"content": "本ガイドでは、Drone2Map のライセンス管理からアプリケーションのインストール、利用開始までの手順について説明します。\nDrone2Map をご利用いただくには、Drone2Map のライセンスと ArcGIS Online または Portal for ArcGIS アカウントが必要です。管理者は必ず Drone2Map の認証の設定を行い、利用を開始してください。\n ライセンス\nDrone2Map のライセンス管理について説明します。\n    動作環境\nDrone2Map の動作環境について説明します。\n    ダウンロード\nDrone2Map およびパッチのインストーラーをダウンロードする手順を説明します。\n    インストールとアンインストール\nDrone2Map をインストールおよびアンインストールする手順を説明します。\n    サイン インとサイン アウト\nライセンスを割り当てた Drone2Map にサイン インおよびサイン アウトする方法を説明します。\n    "
+	"content": "本ガイドでは、Drone2Map のライセンス管理からアプリケーションのインストール、利用開始までの手順について説明します。\nDrone2Map をご利用いただくには、Drone2Map のライセンスと ArcGIS Online または Portal for ArcGIS アカウントが必要です。管理者は必ず Drone2Map の認証の設定を行い、利用を開始してください。\n ライセンス\nDrone2Map のライセンス管理について説明します。\n\r\r\r 動作環境\nDrone2Map の動作環境について説明します。\n\r\r\r ダウンロード\nDrone2Map およびパッチのインストーラーをダウンロードする手順を説明します。\n\r\r\r インストールとアンインストール\nDrone2Map をインストールおよびアンインストールする手順を説明します。\n\r\r\r サイン インとサイン アウト\nライセンスを割り当てた Drone2Map にサイン インおよびサイン アウトする方法を説明します。\n\r\r\r\r"
 },
 {
-	"uri": "https://example_online.com/drone2map/get-started/license/",
+	"uri": "/drone2map/get-started/license/",
 	"title": "ライセンス",
 	"tags": [],
 	"description": "Drone2Map のライセンス管理について説明します。",
-	"content": "Drone2Map は、ArcGIS Online または Portal for ArcGIS の指定ユーザーライセンスを使用し、組織のメンバー（指定ユーザー）の認証情報を使用して Drone2Map にサイン インします。\nDrone2Map ライセンスは ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。組織の管理者、またはライセンス管理権限を持っているユーザーによって Drone2Map ライセンスの割り当てまたは解除を行うことができます。\nライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行います。\n   ArcGIS Online 組織サイトをまだ利用していない場合\nArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。\n  ArcGIS Online 組織サイトを既に利用開始している場合\nArcGIS Online のスタートアップ ガイドのライセンスの割り当てと解除を参考に Drone2Map を利用するメンバーに Drone2Map を割り当てます。\n  Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。\n   Portal for ArcGIS をご利用の場合\nライセンス ファイルの取得が必要となります。詳細は Portal for ArcGIS の ArcGIS Drone2Map ライセンスの構成をご参考ください。\n  "
+	"content": "Drone2Map は、ArcGIS Online または Portal for ArcGIS の指定ユーザーライセンスを使用し、組織のメンバー（指定ユーザー）の認証情報を使用して Drone2Map にサイン インします。\nDrone2Map ライセンスは ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。組織の管理者、またはライセンス管理権限を持っているユーザーによって Drone2Map ライセンスの割り当てまたは解除を行うことができます。\nライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行います。\n\r  ArcGIS Online 組織サイトをまだ利用していない場合\nArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。\n  ArcGIS Online 組織サイトを既に利用開始している場合\nArcGIS Online のスタートアップ ガイドのライセンスの割り当てと解除を参考に Drone2Map を利用するメンバーに Drone2Map を割り当てます。\n  Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。\n\r  Portal for ArcGIS をご利用の場合\nライセンス ファイルの取得が必要となります。詳細は Portal for ArcGIS の ArcGIS Drone2Map ライセンスの構成をご参考ください。\n  "
 },
 {
-	"uri": "https://example_online.com/drone2map/get-started/environment/",
+	"uri": "/drone2map/get-started/environment/",
 	"title": "動作環境",
 	"tags": [],
 	"description": "Drone2Map の動作環境について説明します。",
 	"content": "インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましては Esriジャパン サイト内の動作環境のページをご参照ください。\n ArcGIS Drone2Map 動作環境  "
 },
 {
-	"uri": "https://example_online.com/drone2map/get-started/download/",
+	"uri": "/drone2map/get-started/download/",
 	"title": "ダウンロード",
 	"tags": [],
 	"description": "Drone2Map およびパッチのインストーラーをダウンロードする手順を説明します。",
 	"content": "Drone2Map インストーラーのダウンロード   MyEsri サイトへアクセスします。\n  MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。\nダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。\n  "
 },
 {
-	"uri": "https://example_online.com/drone2map/get-started/installuninstall/",
+	"uri": "/drone2map/get-started/installuninstall/",
 	"title": "インストールとアンインストール",
 	"tags": [],
 	"description": "Drone2Map をインストールおよびアンインストールする手順を説明します。",
-	"content": "Drone2Map のインストール Drone2Map をインストールする手順を説明します。\n必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。\n   Drone2Map の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。\n  プログラムが自動的に展開されるので、ダイアログに従ってインストールしてください。\n  Drone2Map がインストールされたら [完了] をクリックします。\n続けて 「ArcGIS Drone2Map 日本語パック」 のインストールが開始します。\n  Drone2Map 日本語パックのセットアップが終了したら [OK] をクリックします。\n  パッチおよび任意プログラムのインストールについて\nDrone2Map のパッチをインストールする場合は、続いてインストールをしてください。\n 以上で Drone2Map のインストールは完了です。\nDrone2Map のアンインストール Drone2Map をアンインストールする手順を説明します。\n必ずアンインストール前にオフライン設定の解除を行ってください。\n   Windows の [コントロール パネル] → [プログラムと機能] を開きます。\n  「ArcGIS Drone2Map 日本語パック」 → 「ArcGIS Drone2Map」 の順にアンインストールします。各プログラムについて [アンインストールと変更] をクリックしてアンインストールを実行します。\n  "
+	"content": "Drone2Map のインストール Drone2Map をインストールする手順を説明します。\n必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。\n\r  Drone2Map の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。\n  プログラムが自動的に展開されるので、ダイアログに従ってインストールしてください。\n  Drone2Map がインストールされたら [完了] をクリックします。\n続けて 「ArcGIS Drone2Map 日本語パック」 のインストールが開始します。\n  Drone2Map 日本語パックのセットアップが終了したら [OK] をクリックします。\n  パッチおよび任意プログラムのインストールについて\nDrone2Map のパッチをインストールする場合は、続いてインストールをしてください。\n\r以上で Drone2Map のインストールは完了です。\nDrone2Map のアンインストール Drone2Map をアンインストールする手順を説明します。\n必ずアンインストール前にオフライン設定の解除を行ってください。\n\r  Windows の [コントロール パネル] → [プログラムと機能] を開きます。\n  「ArcGIS Drone2Map 日本語パック」 → 「ArcGIS Drone2Map」 の順にアンインストールします。各プログラムについて [アンインストールと変更] をクリックしてアンインストールを実行します。\n  "
 },
 {
-	"uri": "https://example_online.com/drone2map/get-started/signinsignout/",
+	"uri": "/drone2map/get-started/signinsignout/",
 	"title": "サイン インとサイン アウト",
 	"tags": [],
 	"description": "ライセンスを割り当てた Drone2Map にサイン インおよびサイン アウトする方法を説明します。",
 	"content": "Drone2Map へのサイン イン ライセンスを割り当てた Drone2Map にサイン インする方法を説明します。\nメンバーへのライセンスの割り当てについては 「ライセンス」 ページをご参照ください。\n  Windows [スタート] メニュー → [ArcGIS] フォルダー → [Drone2Map] を選択し起動させます。\n  サイン イン画面でアカウント情報を入力してサイン インを行います。\n  Drone2Map からのサイン アウト Drone2Map からサイン アウトする方法を説明します。\n Drone2Map でプロジェクトを開いた状態で、画面右上のユーザー名をクリック → [サイン アウト] をクリックします。  "
 },
 {
-	"uri": "https://example_online.com/drone2map/",
+	"uri": "/drone2map/",
 	"title": "ArcGIS Drone2Map",
 	"tags": [],
 	"description": "ArcGIS Drone2Map リソース集",
-	"content": "ArcGIS Drone2Map (以下 Drone2Map) は、ドローンで取得した画像から GIS データを生成することができるソフトウェアです。オルソモザイクや数値表層モデル(DSM)、3D点群、3D メッシュなどを作成することができます。作成したデータは ArcGIS Online で共有したり ArcGIS Pro でさらに高度な解析や可視化を行ったりすることができます。\n本サイトでは、Drone2Map をご利用いただくためのセットアップ手順を紹介します。\nDrone2Map の詳細は、ESRIジャパン製品ページをご参照ください。\n目次   スタートアップ ガイド\n Drone2Map のライセンス管理からアプリケーションのインストール、利用開始までの手順について説明します。      "
+	"content": "ArcGIS Drone2Map (以下 Drone2Map) は、ドローンで取得した画像から GIS データを生成することができるソフトウェアです。オルソモザイクや数値表層モデル(DSM)、3D点群、3D メッシュなどを作成することができます。作成したデータは ArcGIS Online で共有したり ArcGIS Pro でさらに高度な解析や可視化を行ったりすることができます。\n本サイトでは、Drone2Map をご利用いただくためのセットアップ手順を紹介します。\nDrone2Map の詳細は、ESRIジャパン製品ページをご参照ください。\n目次\r  スタートアップ ガイド\n Drone2Map のライセンス管理からアプリケーションのインストール、利用開始までの手順について説明します。    \r\r"
 },
 {
-	"uri": "https://example_online.com/",
+	"uri": "/",
 	"title": "ArcGIS リソース集",
 	"tags": [],
 	"description": "ArcGIS リソース集",
-	"content": "  ArcGIS リソース集 本サイトでは、ArcGIS を利用する方向けに、よりスムーズにスタートしていただけるよう、セットアップや簡単な利用方法をを紹介しています。\nArcGIS 製品の概要はESRIジャパン製品ページをご参照ください。\n ArcGIS Online ArcGIS Pro ArcGIS Business Analyst ArcGIS CityEngine ArcGIS Drone2Map ArcGIS Engine ArcGIS Enterprise ArcGIS Developers Esri 製品ヘルプ  "
+	"content": "\r\rArcGIS リソース集 本サイトでは、ArcGIS を利用する方向けに、よりスムーズにスタートしていただけるよう、セットアップや簡単な利用方法をを紹介しています。\nArcGIS 製品の概要はESRIジャパン製品ページをご参照ください。\n ArcGIS Online ArcGIS Pro ArcGIS Enterprise ArcGIS Apps  ArcGIS Business Analyst ArcGIS CityEngine ArcGIS Drone2Map   ArcGIS Engine ArcGIS Developers Esri 製品ヘルプ  "
 },
 {
-	"uri": "https://example_online.com/categories/",
+	"uri": "/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://example_online.com/tags/",
+	"uri": "/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
